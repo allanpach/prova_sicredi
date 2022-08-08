@@ -16,6 +16,13 @@ mvn test
 ## Casos de Testes
 A cobertura dos testes conforme Regras definidas abaixo. Foi adicionado testes complementares dos quais julguei necessário, 
 devido a regras não mapeadas ou ambíguas.
+Os teste que aprsentam falhas eles não atenderam as regras definidas, segue exemplos de algumas flahas:
+- Status code;
+- Valor limite;
+- Atributos requeridos;
+- Request Body;
+- Type value;
+
 ## Reports
 O report da execução do teste fica na raiz do projeto em formato TXT e XML: \target\surefire-reports 
 
